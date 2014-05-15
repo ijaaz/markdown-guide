@@ -38,6 +38,8 @@ Which will be displayed like this:
 ##### Header 5
 ###### Header 6
 
+
+
 Links
 -----
 
@@ -53,9 +55,7 @@ It will then be converted to this:
 <a href=http://link.com>Text</a>
 ```
 
-Which will be displayed as:
-
-[Text](http://link.com)
+Which will be displayed as: [Text](http://link.com)
 
 
 
@@ -80,19 +80,20 @@ interfering with it.  Sometimes people use a special javascript library to
 highlight different languages with specific colors, a good example of a js
 library that does this is called [highlight.js](http://highlightjs.org/)
 
-  ```javascript
-  function get (attr) {
-    return function (object) { return object[attr]; }
-  }
+```
+function get (attr) {
+  return function (object) { return object[attr]; }
+}
 
-  var inventory = {
-    apples: 0,
-    oranges 144,
-    eggs: 36
-  };
+var inventory = {
+  apples: 0,
+  oranges 144,
+  eggs: 36
+};
 
-  get('oranges')(inventory)
-  ```
+get('oranges')(inventory)
+```
+```
 
 The output for this in html is:
 
@@ -111,6 +112,7 @@ var inventory = {
 get('oranges')(inventory)
 </blockquote>
 ```
+
 And this is what it looks like in the browser:
 
 ```javascript
@@ -126,3 +128,6 @@ var inventory = {
 
 get('oranges')(inventory)
 ```
+
+
+
