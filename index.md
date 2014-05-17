@@ -69,31 +69,30 @@ Emphasis
 Lists
 -----
 
-Blockquotes
+Code Spans
 -----------
 
-Code Spans
+Blockquotes
 ----------
 
 Blockquotes are a way to display blocks of code without the markdown enterpeter
-interfering with it.  Sometimes people use a special javascript library to
+interfering with it. Sometimes people use a special javascript library to
 highlight different languages with specific colors, a good example of a js
 library that does this is called [highlight.js](http://highlightjs.org/)
 
-```
-function get (attr) {
-  return function (object) { return object[attr]; }
-}
 
-var inventory = {
-  apples: 0,
-  oranges 144,
-  eggs: 36
-};
+    ```function get (attr) {
+      return function (object) { return object[attr]; }
+    }
 
-get('oranges')(inventory)
-```
-```
+    var inventory = {
+      apples: 0,
+      oranges 144,
+      eggs: 36
+    };
+
+    get('oranges')(inventory)
+    ```
 
 The output for this in html is:
 
