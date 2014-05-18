@@ -75,8 +75,8 @@ including Cloud sync.
 If you are interested in Markdown, I recommend you check out these editor made
 for markdown.
 
-* (nvALT)[http://brettterpstra.com/projects/nvalt/], it's free, and really cool
-* (Byword)[http://bywordapp.com/], this one is not free, but it's minimalistic,
+* [nvALT](http://brettterpstra.com/projects/nvalt/), it's free, and really cool
+* [Byword](http://bywordapp.com/), this one is not free, but it's minimalistic,
     and good for beginners
 
 
@@ -130,7 +130,7 @@ You can also write header 1's like this
 And header 2's like this
 ------------------------
 
-
+hint: This is a start of a new section
 Links
 -----
 
@@ -188,7 +188,7 @@ This is an unorderd list:
 
 - I can actually also be written like this
 
-_ Or like this
++ Or like this
 ```
 
 That in HTML would look like this:
@@ -208,7 +208,7 @@ And would be displayed like this:
 
 - I can actually also be written like this
 
-_ Or like this
++ Or like this
 
 Code Spans
 -----------
