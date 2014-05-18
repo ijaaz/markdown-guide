@@ -16,11 +16,10 @@ because you could have specially formated text, images, colors, and all
 different other thing to spruce up your Text, thing that Simple Text did not
 have. 
 
-Simple Text was just that simple, there was no way to really display it
-differently or make it look different then it really was, nor could you add
-photos, or links. 
+Simple Text was just that, simple, there was no way to really display it
+differently(at least without programming), nor could you add photos, or links. 
 
-And then there was programming, you could definitely use something like html (a
+And then there was programming; you could definitely use something like HTML (a
 web standard way to display text that had formating) and have all of the
 formating and pictures of cats you'd ever want, while at the same time, you
 could use any editor you wanted.
@@ -33,43 +32,43 @@ professors use it for mathematical formulas, that's the formulas that aleks
 uses. 
 
 You can take a latex paper and convert it into pdf, and more. The possibilities
-endless. And the good thing about latex is that it works on any text editor
-(unlike Rich Text), but the problem is that it is hard to use, after all it's
+are endless. And the good thing about latex is that it works on any text editor
+(unlike Rich Text), the problem is that it is hard to use, after all it's
 basically programming. Who want's to program at the same time as writing
-a document , not many.
+a document, not many.
 
-So someone thought, oh boy, why dont we really simplify things, and make
-something that everyone could use iregardless of text editor(no need for rich
-text editors, like microsoft word), or coding ability(latex, html).
+So someone thought, oh boy, why don't we really simplify things, and make
+something that everyone could use iregardless of text editor(no need for Rich
+Text editors, like Microsoft Word), or coding ability(latex, html).
 
-So they(this is all just from my imagination) saw that when people where text
-or mailing each other, they where sometimes using a simple syntax to enhance
-their text, an example would be empasizing some text by surrounding it with
-times symbols (get it, it's times impportant) like this: `*this is extra
-powerful*`.
+So they saw that when people were texting or emailing each other, they were
+sometimes using a simple syntax to enhance their text, an example would be
+emphasising some text by surrounding it with times symbols (get it, it's times
+impportant) like this: `*this is extra powerful*`.
 
-They also noticed that HTML was perfect as a way to display formating, as it is
-global and works on any machine.
+They also noticed that HTML a perfect way to display formating, as it is global
+and works on any machine.
 
-HTML was already being used as a way to format pdf's, and ebooks.
+HTML was already being used as a way to format pdf's, ebooks, and more.
 
 if you ever look inside an ebook, you'd be surprised to find that it's
-basically a collection of html files and a pictures.
+basically a collection of html files and pictures.
 
-So they wrote a small script (specifically a perl script, don't worry if you
+So they wrote a small script(specifically a perl script, don't worry if you
 don't know what that is) that took a text file, looked for special symbols
 (like a couple strong symbols surrounding some text), then converted that text
 to html. 
 
-You could then use some other tools to make that html into a pdf, ebook, or
-more specifically just use it in a website.
+You could then use some other tools to make that html into a pdf, ebook,
+Microsoft Word document, or more specifically just use it in a website.
 
 So that is the grand beginning of Markdown.
 
-It is now ubiquitus, with a multitude of editors supporting Markdown, even
-though you don't need any special editor to write markdown, a lot of editors
+It is now ubiquitous, with a multitude of editors supporting Markdown.
+
+Though you don't need any special editor to write markdown, a lot of editors
 specifically made for markdown have their own html converters built in, they
-also may have a way to imediatly convert to a pdf, and other such goodies,
+also may have a way to immediately convert to a pdf, and other such goodies,
 including Cloud sync.
 
 If you are interested in Markdown, I recommend you check out these editor made
