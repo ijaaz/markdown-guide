@@ -80,8 +80,6 @@ for markdown.
 
 
 
-
-
 Headers
 -------
 
@@ -125,11 +123,12 @@ Which will be displayed like this:
 ###### Header 6
 You can also write header 1's like this
 =======================================
-
 And header 2's like this
 ------------------------
 
+
 hint: This is a start of a new section
+
 Links
 -----
 
@@ -148,10 +147,14 @@ It will then be converted to this:
 Which will be displayed as: [Text](http://link.com)
 
 
-
-
 Images
 ------
+
+The image syntax is a lot like links, the only difference is that they have
+a `!` at the beginning. You put alt text into the brackets(`[]`), the alt text
+is used by search engines to identify the picture.
+
+
 
 Images are typed like this:
 
@@ -165,13 +168,15 @@ It will then be converted to this HTML:
 <img href="path/to/image.png" alt="My Alt Text"/>
 ```
 
-Which Will be displayed in the browser like this:
+Which will be displayed in the browser like this:
 
 ![ImageCaption](path/to/image.png)
 
 
 Emphasis
 --------
+
+Emphasis is pretty intuitive, 
 
 
 Lists
@@ -212,6 +217,10 @@ And would be displayed like this:
 Code Spans
 -----------
 
+Code Spans are a way to display inline code,they are a lot like Blockquotes, but
+instead use single ticks like this ````.
+
+
 
 Blockquotes
 ----------
@@ -220,6 +229,9 @@ Blockquotes are a way to display blocks of code without the markdown enterpeter
 interfering with it. Sometimes people use a special javascript library to
 highlight different languages with specific colors, a good example of a js
 library that does this is called [highlight.js](http://highlightjs.org/)
+
+Blockquotes can either be written with 3 ticks, or indenting by 4 spaces or
+more.
 
 
     ```function get (attr) {
@@ -235,10 +247,16 @@ library that does this is called [highlight.js](http://highlightjs.org/)
     get('oranges')(inventory)
     ```
 
+or:
+
+       Code
+       Yep I'm Code
+
+
 The output for this in html is:
 
 ```html
-<blockquote>
+<pre><code>
 function get (attr) {
   return function (object) { return object[attr]; }
 }
@@ -250,9 +268,15 @@ var inventory = {
 };
 
 get('oranges')(inventory)
-</blockquote>
+</code></pre>
 ```
 
+```html
+<pre><code>
+Code
+Yep I'm Code
+</code></pre>
+```
 And this is what it looks like in the browser:
 
 ```javascript
@@ -268,4 +292,8 @@ var inventory = {
 
 get('oranges')(inventory)
 ```
+
+    Code
+    Yep I'm Code
+
 
