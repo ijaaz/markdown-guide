@@ -1,7 +1,8 @@
 Markdown Syntax
 ===============
 
-## Introduction
+Introduction
+-----------
 
 Once upon a time, there used to way to edit text, Rich Text, and just Simple
 Text.
@@ -11,7 +12,7 @@ they also had special formats, like .docx, that made it almost impossible to
 use non-specialty editors.
 
 But even though you had to use a specialty Rich Text editor, it was all fine,
-becuse you could have specially formated text, images, colors, and all
+because you could have specially formated text, images, colors, and all
 different other thing to spruce up your Text, thing that Simple Text did not
 have. 
 
@@ -28,7 +29,7 @@ But HTML is bulky, and doesn't really work well with a lot of writing, I mean
 whoever wants to write something like `<h2>` every time he wanted a header.
 
 And then there is latex, now latex is the god of text formating; most
-professors use it for mathimatical formulas, that's the formulas that aleks
+professors use it for mathematical formulas, that's the formulas that aleks
 uses. 
 
 You can take a latex paper and convert it into pdf, and more. The possibilities
@@ -63,20 +64,21 @@ to html.
 You could then use some other tools to make that html into a pdf, ebook, or
 more specifically just use it in a website.
 
-So this is the grand beginning of Markdown.
+So that is the grand beginning of Markdown.
 
 It is now ubiquitus, with a multitude of editors supporting Markdown, even
 though you don't need any special editor to write markdown, a lot of editors
 specifically made for markdown have their own html converters built in, they
-also may have a way to imidiatly convert to a pdf, and other such goodies,
+also may have a way to imediatly convert to a pdf, and other such goodies,
 including Cloud sync.
 
 If you are interested in Markdown, I recommend you check out these editor made
 for markdown.
 
-* (NVAlt)[http://brettterpstra.com/projects/nvalt/], it's free, and really cool
+* (nvALT)[http://brettterpstra.com/projects/nvalt/], it's free, and really cool
 * (Byword)[http://bywordapp.com/], this one is not free, but it's minimalistic,
     and good for beginners
+
 
 
 
@@ -93,6 +95,12 @@ You write headers like this:
 #### Header 4
 ##### Header 5
 ###### Header 6
+
+You can also write header 1's like this
+=======================================
+
+And header 2's like this
+------------------------
 ```
 
 It will then be converted to:
@@ -104,6 +112,8 @@ It will then be converted to:
 <h4>Header 4</h4>
 <h5>Header 5</h5>
 <h6>Header 6</h6>
+<h1>You can also write header 1's like this</h1>
+<h2>And header 2's like this</h2>
 ```
 
 Which will be displayed like this:
@@ -114,7 +124,11 @@ Which will be displayed like this:
 #### Header 4
 ##### Header 5
 ###### Header 6
+You can also write header 1's like this
+=======================================
 
+And header 2's like this
+------------------------
 
 
 Links
@@ -136,18 +150,69 @@ Which will be displayed as: [Text](http://link.com)
 
 
 
+
 Images
 ------
+
+Images are typed like this:
+
+```markdown
+![ImageCaption](path/to/image.png)
+```
+
+It will then be converted to this HTML:
+
+```html
+<img href="path/to/image.png" alt="My Alt Text"/>
+```
+
+Which Will be displayed in the browser like this:
+
+![ImageCaption](path/to/image.png)
 
 
 Emphasis
 --------
 
+
 Lists
 -----
 
+Lists are actually the easiest to understand, as they are actually written
+exactly as they would normally be written.
+
+This is an unorderd list:
+```markdown
+* I'm a list item
+* I'm another list item
+
+- I can actually also be written like this
+
+_ Or like this
+```
+
+That in HTML would look like this:
+
+```html
+<ul>
+  <li>I'm a list item</li>
+  <li>I'm another list item</li>
+  <li>I can actually also be written like this</li>
+  <li>Or like this</li>
+```
+
+And would be displayed like this:
+
+* I'm a list item
+* I'm another list item
+
+- I can actually also be written like this
+
+_ Or like this
+
 Code Spans
 -----------
+
 
 Blockquotes
 ----------
@@ -204,6 +269,4 @@ var inventory = {
 
 get('oranges')(inventory)
 ```
-
-
 
