@@ -214,6 +214,7 @@ That in HTML would look like this:
   <li>I'm another list item</li>
   <li>I can actually also be written like this</li>
   <li>Or like this</li>
+</ul>
 ```
 
 And would be displayed like this:
