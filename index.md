@@ -176,7 +176,17 @@ Which will be displayed in the browser like this:
 Emphasis
 --------
 
-Emphasis is pretty intuitive, 
+Emphasis is pretty intuitive, this is bold `**bold**`, and this is italic text
+`*italic*`. You can also use
+underscores (`_`), instead of a times symbol, here's an example: `_italic_`.
+
+The output for this is in HTML:
+```html
+<strong>bold</strong>
+<em>italic</em>
+```
+**bold**
+*italic*
 
 
 Lists
@@ -218,8 +228,15 @@ Code Spans
 -----------
 
 Code Spans are a way to display inline code,they are a lot like Blockquotes, but
-instead use single ticks like this ````.
+instead use single ticks like this `.
 
+    `This is how it's typed in markdown`
+
+This is what it look like in HTML:
+    
+    <code>This is how it's typed in markdown</code>
+
+And this is how it's displayed: `This is how it's typed in markdown`
 
 
 Blockquotes
